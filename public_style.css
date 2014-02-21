@@ -3,6 +3,7 @@ body{
   /*color: #757575;*/
   color: black;
   margin: 0px;
+  line-height: 30px;
 }
 nav {
   border-bottom: 1px solid #E6E6E6;
@@ -69,7 +70,7 @@ nav ul li a:hover{
   border-bottom: 1px solid #E6E6E6;*/
 }
 #full-banner{
-  max-height: 250px;
+  max-height: 200px;
   border-bottom: 1px solid #E6E6E6;
   overflow: hidden;
   /*position: absolute;*/
@@ -83,15 +84,19 @@ nav ul li a:hover{
   height: auto;
 }
 #banner-inner-text {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bolder;
     /*margin-top: 40px*/
     position: relative;
-    top: -150px;
+    top: -120px;
     left: 0;
     text-align: center;
     z-index: 10;
     text-shadow: 1px 1px grey;
+    letter-spacing: 5px;
+}
+#team-page #banner-inner-text {
+  color: white;
 }
 #main-text{
   background-color: white;
@@ -104,7 +109,7 @@ nav ul li a:hover{
 }
 .main-head-title{
   text-align: center;
-  margin: 20px;
+  margin: 0 20px 20px;
   font-size: 1.8em;
 }
 .definition-box{
@@ -127,8 +132,9 @@ nav ul li a:hover{
   width: 200px;
 }
 .box-section{
-  padding: 5%;
+  padding: 2%;
   font-size: 1.2em;
+  overflow: hidden;
 }
 .grey-box{
   background-color: rgb(240,240,240);
@@ -149,7 +155,7 @@ nav ul li a:hover{
   width: 100%;
   color: #757575;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 ul.lacuna-is-links {
   display: inline-block;
@@ -168,29 +174,48 @@ ul.lacuna-is-links li {
   text-align: center;
   /*width: 90px;*/
 }
-ul.lacuna-is-links li a{
+a{
   color: #1588ba;
   display: inline;
   cursor: pointer;
   text-decoration: none;
 }
-ul.lacuna-is-links li a:hover{
+a:hover{
   border-bottom: solid 1px #1588ba;
 }
+.subsection-pic img{
+  float: left;
+  max-width: 300px;
+  width: auto;
+  height: auto;
+  margin-left: 0px;
+  margin-right: 100px;
+}
+#collaborative .subsection-pic img{
+  max-width: 200px;
+  margin-left: 50px;
+  margin-right: 150px;
+}
+/*#empowering .subsection-pic img{
+  max-width: 250px;
+  margin-left: 25px;
+  margin-right: 125px;
+}*/
 .subsection-title{
   margin-bottom: 20px;
   font-size:1.2em;
 }
 #team-page .subsection-title{
   float: left;
-  margin-right: 100px;
+  margin-right: 50px;
+  width: 200px;
 }
 .subsection-body{
   overflow: hidden;
 }
 .team-pic{
   overflow: hidden;
-  margin: 0 20px 20px;
+  margin: 0 20px;
   float: left;
   max-width: 220px;
   width: 100%;
@@ -202,6 +227,13 @@ ul.lacuna-is-links li a:hover{
 .team-name{
   text-align: center;
 }
+.team-title{
+  text-align: center;
+  color: grey;
+  line-height: 20px;
+  font-size: 0.9em;
+}
+
 .half-div{
   width: 40%;
   min-width: 300px;
@@ -224,4 +256,31 @@ ul.lacuna-is-links li a:hover{
 }
 #faq-box{
   padding-top: 0;
+}
+#lacuna-intro-text{
+  margin-bottom: 50px;
+}
+.subsection-topic{
+  font-weight: bold;
+}
+#ecosystem .subsection-topic{
+  color: #88b551;
+}
+#annotatable .subsection-topic{
+  color: #78cefd;
+}
+#thinking .subsection-topic{
+  color: #fd7954;
+}
+#collaborative .subsection-topic{
+  color: #8c3292;
+}
+#empowering .subsection-topic{
+  color: #c4df2c;
+}
+#urgent .subsection-topic{
+  color: #1588ba;
+}
+.lacuna-video{
+  text-align: center;
 }

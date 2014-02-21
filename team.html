@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Lacuna Stories: Mend the Truth</title>
 <link rel="stylesheet" type="text/css" href="public_style.css">
 <style>
 </style>
@@ -10,20 +11,30 @@
 $(document).ready(function(){
 });   
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-36801275-4', 'lacunastories.com');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body id="team-page">
 <nav>
   <div class="nav-content">
     <div class="logo-wrapper">
-      <a id="logo-link" href="about.html"><img id="logo-img" src="images/logo-scaled.png"></a>
+      <a id="logo-link" href="index.html"><img id="logo-img" src="images/logo-scaled.png"></a>
     </div>
     <div class="primary-wrapper">
       <ul class="primary">
         <li><a href="about.html">About</a></li>
         <li><a class="selected" href="team.html">Team</a></li>
         <li><a href="faq.html">FAQ</a></li>
-        <li><a href="mailto:johnsrud@stanford.edu">Contact</a></li>
-        <li><a href="/911/user">Login</a></li>
+        <li><a href="mailto:info@lacunastories.com">Contact</a></li>
+        <li><a href="/911">Login</a></li>
       </ul>
     </div>
   </div>
@@ -31,55 +42,64 @@ $(document).ready(function(){
 <div id="main">
   <div id="main-head">
     <div id= "full-banner"><img src="images/BlueBanner.png"></div>
-    <div id="banner-inner-text">Our Team</div>
+    <div id="banner-inner-text">Team</div>
   </div>
-  <div class="main-head-title">Meet Our...</div>
+  <div class="main-head-title">Meet our team of:</div>
   <div id="lacuna-is-link-container">
     <ul class="lacuna-is-links">
       <li><a href="#directors">directors</a></li>
-      <li><a href="#research-team">research team</a></li>
+      <li><a href="#research-team">researchers</a></li>
       <li><a href="#developers">developers</a></li>
-      <li><a href="#curation-team">curation team</a></li>
-      <li><a href="#advisors-collaborators">advisory board and collaborators</a></li>
+      <li><a href="#curation-team">curators</a></li>
+      <li><a href="#advisors-collaborators">collaborators</a></li>
     </ul>
   </div>
 
   <div class= "box-section grey-box" id="directors">
     <div class="subsection-title"><strong>Directors</strong></div>
     <div class="subsection-body">
-      <div class="team-pic"><img src="images/team/Amir_Square.jpg"><div class="team-name">Amir Eshel (Co-Director)</div></div>
-      <div class="team-pic"><img src="images/team/Brian_Square.jpg"><div class="team-name">Brian Johnsrud (Co-Director)</div></div>
+      <div class="team-pic"><img src="images/team/Amir_Square.jpg">
+        <div class="team-name"><a href="amireshel.html">Amir Eshel</a></div>
+        <div class="team-title">Co-Director</div>
+      </div>
+      <div class="team-pic"><img src="images/team/Brian_Square.jpg">
+        <div class="team-name"><a href="brianjohnsrud.html">Brian Johnsrud</a></div>
+        <div class="team-title">Co-Director</div>
+      </div>
+      <div class="team-pic"><img src="images/team/Mike_Square.png">
+        <div class="team-name"><a href="mikewidner.html">Mike Widner</a></div>
+        <div class="team-title">Technical Director</div>
+      </div>
     </div>
   </div>
   <div class= "box-section black-box" id="research-team">
-    <div class="subsection-title"><strong>Research Team</strong></div>
+    <div class="subsection-title"><strong>Researchers</strong></div>
     <div class="subsection-body">
-      <div class="team-pic"><img src="images/team/Fred_Square.jpg"><div class="team-name">Fred Turner</div></div>
-      <div class="team-pic"><img src="images/team/Sam_Square.jpg"><div class="team-name">Sam Wineburg</div></div>
-      <div class="team-pic"><img src="images/team/Sam_Square.jpg"><div class="team-name">Emily Schneider</div></div>
+      <div class="team-pic"><img src="images/team/Fred_Square.jpg"><div class="team-name"><a href="http://fredturner.stanford.edu">Fred Turner</a></div></div>
+      <div class="team-pic"><img src="images/team/Sam_Square.jpg"><div class="team-name"><a href="https://ed.stanford.edu/faculty/wineburg">Sam Wineburg</a></div></div>
+      <div class="team-pic"><img src="images/team/Emily_Square.jpg"><div class="team-name"><a href="http://cepa2.stanford.edu/people/emily-schneider">Emily Schneider</a></div></div>
     </div>
   </div>
   <div class= "box-section white-box" id="developers">
     <div class="subsection-title"><strong>Developers</strong></div>
     <div class="subsection-body">
-      <div class="team-pic"><img src="images/team/Mike_Square.jpg"><div class="team-name">Mike Widner (Technical Director)</div></div>
-      <div class="team-pic"><img src="images/team/Mike_Square.jpg"><div class="team-name">Matt Mowers</div></div>
-      <div class="team-pic"><img src="images/team/Mike_Square.jpg"><div class="team-name">Adi Singh</div></div>
+      <div class="team-pic"><img src="images/team/Matt_Square.jpg"><div class="team-name"><a href="http://www.linkedin.com/profile/view?id=211393725">Matt Mowers</a></div></div>
+      <div class="team-pic"><img src="images/team/Adi_Square.jpg"><div class="team-name"><a href="https://github.com/adi3">Adi Singh</a></div></div>
     </div>
   </div>
   <div class= "box-section grey-box" id="curation-team">
-    <div class="subsection-title"><strong>Curation Team</strong></div>
+    <div class="subsection-title"><strong>Curators</strong></div>
     <div class="subsection-body">
       <div class="team-pic"><img src="images/team/Elena_Square.jpg"><div class="team-name">Elena Musz</div></div>
       <div class="team-pic"><img src="images/team/Emma_Square.jpg"><div class="team-name">Emma Budiansky</div></div>
     </div>
   </div>
   <div class="box-section black-box" id="advisors-collaborators">
-    <div class="subsection-title"><strong>Advisory Board and Collaborators</strong></div>
+    <div class="subsection-title"><strong>Collaborators</strong></div>
     <div class="subsection-body">
-      <div class="team-pic"><img src="images/team/Kurt_Square.jpg"><div class="team-name">Kurt Fendt</div></div>
-      <div class="team-pic"><img src="images/team/Todd_Square.jpg"><div class="team-name">Todd Presner</div></div>
-      <div class="team-pic"><img src="images/team/Patrik_Square.jpg"><div class="team-name">Patrik Svensson</div></div>
+      <div class="team-pic"><img src="images/team/Kurt_Square.jpg"><div class="team-name"><a href="http://hyperstudio.mit.edu/people/">Kurt Fendt</a></div></div>
+      <div class="team-pic"><img src="images/team/Todd_Square.jpg"><div class="team-name"><a href="http://www.toddpresner.com">Todd Presner</a></div></div>
+      <div class="team-pic"><img src="images/team/Patrik_Square.jpg"><div class="team-name"><a href="http://patrik.humlab.umu.se">Patrik Svensson</a></div></div>
     </div>
   </div>
 </div>
